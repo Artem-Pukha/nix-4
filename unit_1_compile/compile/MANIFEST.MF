@@ -1,0 +1,2 @@
+Main-Class: com.spnsolo.Main
+Class-Path: libs/commons-lang3-3.11.jar libs/commons-text-1.9.jar
