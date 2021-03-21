@@ -1,0 +1,4 @@
+com\spnsolo\calculator\factory\FactoryCalc.class
+com\spnsolo\calculator\PerformerCalculator.class
+com\spnsolo\calculator\Calculator.class
+com\spnsolo\calculator\impl\OpeningStage.class

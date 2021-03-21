@@ -1,9 +1,7 @@
 package com.spnsolo270;
 
-import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.Scanner;
-import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -27,7 +25,7 @@ public class Main {
         for(char c: chars){
             checker = c;
 
-            //Numbers into Unicode table from 48 to 57.
+            //Numbers into table from 48 to 57.
             if( 48 <= checker && checker <= 57){
                 sum += (checker - 48);
             }
@@ -41,11 +39,10 @@ public class Main {
         System.out.println("----------------------------------------------------------------");
         ///////////////////
 
-
         /////////2/////////
         System.out.println("---------------------------Second task--------------------------");
         System.out.println();
-
+        //qe126авапцю
         System.out.print("Enter your string: ");
         Scanner scanner2 = new Scanner(System.in);
         String enteredS2 = scanner2.nextLine();

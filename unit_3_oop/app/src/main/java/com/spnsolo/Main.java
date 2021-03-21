@@ -69,13 +69,10 @@ public class Main {
             char YorN = ConsoleHelper.cin().charAt(0);
             if(YorN == 'y'){
                 ConsoleHelper.coutl("/////////////////////////////////////////");
-                continue;
             }else {
                 ConsoleHelper.coutl("Thank you for using!");
                 endProgram = true;
             }
-
-
         }
     }
 }
