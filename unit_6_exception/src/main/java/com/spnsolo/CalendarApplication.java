@@ -63,9 +63,15 @@ public class CalendarApplication {
     }
     private static void selectOptions(String index){
         switch (index){
-            case "1"->differenceBetweenDates();
-            case "2"-> addOrSubtract();
-            case "3"->sortDates();
+            case "1":
+                differenceBetweenDates();
+                break;
+            case "2":
+                addOrSubtract();
+                break;
+            case "3":
+                sortDates();
+                break;
         }
     }
     private static void sortDates(){
@@ -194,8 +200,12 @@ public class CalendarApplication {
     }
     private static void selectPrintFunctions(String operation){
         switch (operation) {
-            case "0" -> printAvailableFormats();
-            case "1" -> printAvailableCombinations();
+            case "0":
+                printAvailableFormats();
+                break;
+            case "1":
+                printAvailableCombinations();
+                break;
         }
     }
     private static void printOutputOfOperationInSelectedType(long milliseconds) {
@@ -208,17 +218,30 @@ public class CalendarApplication {
             System.out.println();
             String s = "Difference between dates in:\n";
             switch (type) {
-                case "1" -> System.out.println(s + "Milliseconds: " + milliseconds);
-                case "2" -> System.out.println(s + "Seconds: " + InverterFromMilliseconds.toSeconds(milliseconds));
-                case "3" -> System.out.println(s + "Minutes: " + InverterFromMilliseconds.toMinutes(milliseconds));
-                case "4" -> System.out.println(s + "Hours: " + InverterFromMilliseconds.toHours(milliseconds));
-                case "5" -> System.out.println(s + "Days: " + InverterFromMilliseconds.toDays(milliseconds));
-                case "6" -> System.out.println(s + "Years: " + InverterFromMilliseconds.toYears(milliseconds));
-                case "7" -> System.out.println(s + "Centuries: " + InverterFromMilliseconds.toCentury(milliseconds));
-                default -> {
+                case "1":
+                    System.out.println(s + "Milliseconds: " + milliseconds);
+                    break;
+                case "2":
+                    System.out.println(s + "Seconds: " + InverterFromMilliseconds.toSeconds(milliseconds));
+                    break;
+                case "3":
+                    System.out.println(s + "Minutes: " + InverterFromMilliseconds.toMinutes(milliseconds));
+                    break;
+                case "4":
+                    System.out.println(s + "Hours: " + InverterFromMilliseconds.toHours(milliseconds));
+                    break;
+                case "5":
+                    System.out.println(s + "Days: " + InverterFromMilliseconds.toDays(milliseconds));
+                    break;
+                case "6":
+                    System.out.println(s + "Years: " + InverterFromMilliseconds.toYears(milliseconds));
+                    break;
+                case "7":
+                    System.out.println(s + "Centuries: " + InverterFromMilliseconds.toCentury(milliseconds));
+                    break;
+                default:
                     System.out.println("Incorrect symbol");
                     endLoop = false;
-                }
             }
         }while (!endLoop);
     }
@@ -246,31 +269,24 @@ public class CalendarApplication {
                 String value = INNER.nextLine();
                 long valueInLong = Long.parseLong(value);
                 switch (type) {
-                    case "1" -> {
+                    case "1":
                         return valueInLong;
-                    }
-                    case "2" -> {
+                    case "2":
                         return ConverterToMilliseconds.secondsToMilli(valueInLong);
-                    }
-                    case "3" -> {
+                    case "3":
                         return ConverterToMilliseconds.minutesToMilli((valueInLong));
-                    }
-                    case "4" -> {
+                    case "4":
                         return ConverterToMilliseconds.hoursToMilli((valueInLong));
-                    }
-                    case "5" -> {
+                    case "5":
                         return ConverterToMilliseconds.daysToMilli((valueInLong));
-                    }
-                    case "6" -> {
+                    case "6":
                         return ConverterToMilliseconds.yearsToMilli(((int)valueInLong));
-                    }
-                    case "7" -> {
+                    case "7":
                         return ConverterToMilliseconds.centuryToMilli(((int)valueInLong));
-                    }
-                    default -> {
+                    default:
                         System.out.println("Incorrect type");
                         endLoop = false;
-                    }
+
                 }
             }catch (NumberFormatException e){
                 System.out.println("Incorrect value");
