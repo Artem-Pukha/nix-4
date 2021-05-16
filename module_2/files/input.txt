@@ -1,0 +1,22 @@
+4
+gdansk
+2
+2 1000
+3 3000
+bydgoszcz
+3
+1 1000
+3 1000
+4 4000
+torun
+3
+1 3000
+2 1000
+4 1000
+warszawa
+2
+2 4000
+3 1000
+2
+gdansk warszawa
+bydgoszcz warszawa
