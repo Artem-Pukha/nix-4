@@ -3,8 +3,6 @@ package com.spnsolo.graph;
 import org.jgrapht.Graph;
 import org.jgrapht.alg.shortestpath.DijkstraShortestPath;
 import org.jgrapht.graph.*;
-
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;

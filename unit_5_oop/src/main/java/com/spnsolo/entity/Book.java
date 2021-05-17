@@ -1,5 +1,7 @@
 package com.spnsolo.entity;
 
+
+
 import lombok.Getter;
 import lombok.Setter;
 

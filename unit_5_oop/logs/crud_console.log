@@ -980,3 +980,61 @@
 2021-04-04 15:51:13 INFO  AuthorService:22 - Updating author
 2021-04-04 15:51:13 INFO  AuthorService:38 - Reading author
 2021-04-04 15:51:13 INFO  AuthorService:38 - Reading author
+2021-05-13 13:36:59 INFO  AuthorService:16 - Start of creating author
+2021-05-13 13:36:59 INFO  AuthorService:18 - Finish of creating author
+2021-05-13 13:36:59 INFO  BookService:18 - Start of creating book
+2021-05-13 13:36:59 INFO  BookService:20 - Finish of creating book
+2021-05-13 13:36:59 INFO  AuthorService:16 - Start of creating author
+2021-05-13 13:36:59 INFO  AuthorService:18 - Finish of creating author
+2021-05-13 13:36:59 INFO  BookService:18 - Start of creating book
+2021-05-13 13:36:59 INFO  BookService:20 - Finish of creating book
+2021-05-13 13:36:59 INFO  AuthorService:16 - Start of creating author
+2021-05-13 13:36:59 INFO  AuthorService:18 - Finish of creating author
+2021-05-13 13:36:59 INFO  BookService:18 - Start of creating book
+2021-05-13 13:36:59 INFO  BookService:20 - Finish of creating book
+2021-05-13 13:36:59 INFO  AuthorService:16 - Start of creating author
+2021-05-13 13:36:59 INFO  AuthorService:18 - Finish of creating author
+2021-05-13 13:36:59 INFO  BookService:18 - Start of creating book
+2021-05-13 13:36:59 INFO  BookService:20 - Finish of creating book
+2021-05-13 13:36:59 INFO  AuthorService:16 - Start of creating author
+2021-05-13 13:36:59 INFO  AuthorService:18 - Finish of creating author
+2021-05-13 13:36:59 INFO  BookService:18 - Start of creating book
+2021-05-13 13:36:59 INFO  BookService:20 - Finish of creating book
+2021-05-13 13:36:59 INFO  AuthorService:52 - Checking author
+2021-05-13 13:36:59 INFO  BookService:53 - Checking book
+2021-05-13 13:36:59 INFO  AuthorService:16 - Start of creating author
+2021-05-13 13:36:59 INFO  AuthorService:18 - Finish of creating author
+2021-05-13 13:36:59 INFO  BookService:18 - Start of creating book
+2021-05-13 13:36:59 INFO  BookService:20 - Finish of creating book
+2021-05-13 13:36:59 INFO  AuthorService:16 - Start of creating author
+2021-05-13 13:36:59 INFO  AuthorService:18 - Finish of creating author
+2021-05-13 13:36:59 INFO  BookService:18 - Start of creating book
+2021-05-13 13:36:59 INFO  BookService:20 - Finish of creating book
+2021-05-13 13:36:59 INFO  AuthorService:16 - Start of creating author
+2021-05-13 13:36:59 INFO  AuthorService:18 - Finish of creating author
+2021-05-13 13:36:59 INFO  BookService:18 - Start of creating book
+2021-05-13 13:36:59 INFO  BookService:20 - Finish of creating book
+2021-05-13 13:36:59 INFO  AuthorService:16 - Start of creating author
+2021-05-13 13:36:59 INFO  AuthorService:18 - Finish of creating author
+2021-05-13 13:36:59 INFO  BookService:18 - Start of creating book
+2021-05-13 13:36:59 INFO  BookService:20 - Finish of creating book
+2021-05-13 13:36:59 INFO  AuthorService:16 - Start of creating author
+2021-05-13 13:36:59 INFO  AuthorService:18 - Finish of creating author
+2021-05-13 13:36:59 INFO  BookService:18 - Start of creating book
+2021-05-13 13:36:59 INFO  BookService:20 - Finish of creating book
+2021-05-13 13:36:59 INFO  AuthorService:32 - Start of associating author with books
+2021-05-13 13:36:59 INFO  AuthorService:34 - Finish of associating author with books
+2021-05-13 13:36:59 INFO  AuthorService:38 - Reading author
+2021-05-13 13:36:59 INFO  AuthorService:27 - Deleting author
+2021-05-13 13:36:59 INFO  BookService:29 - Deleting book
+2021-05-13 13:36:59 INFO  AuthorService:16 - Start of creating author
+2021-05-13 13:36:59 INFO  AuthorService:18 - Finish of creating author
+2021-05-13 13:36:59 INFO  AuthorService:52 - Checking author
+2021-05-13 13:36:59 INFO  BookService:18 - Start of creating book
+2021-05-13 13:36:59 INFO  BookService:20 - Finish of creating book
+2021-05-13 13:36:59 INFO  BookService:53 - Checking book
+2021-05-13 13:36:59 INFO  BookService:24 - Updating book
+2021-05-13 13:36:59 INFO  BookService:44 - Reading book
+2021-05-13 13:36:59 INFO  AuthorService:22 - Updating author
+2021-05-13 13:36:59 INFO  AuthorService:38 - Reading author
+2021-05-13 13:36:59 INFO  AuthorService:38 - Reading author
