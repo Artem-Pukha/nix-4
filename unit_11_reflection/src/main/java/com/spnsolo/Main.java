@@ -14,9 +14,9 @@ public class Main {
         System.out.println("///////////Unit 11 - Reflection///////////");
         System.out.println();
         try {
-            AppProperties appProperties = (AppProperties) HandlerProperties.initializeProperties();
+            AppProperties appProperties = (AppProperties) HandlerProperties.initializeProperties(AppProperties.class);
             System.out.println(appProperties);
-        } catch (IllegalAccessException e) {
+        } catch (IllegalAccessException | NoSuchMethodException e) {
             e.printStackTrace();
         }
         System.out.println();

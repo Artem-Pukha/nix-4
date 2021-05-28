@@ -12,8 +12,8 @@ import java.util.Properties;
 
 public class HandlerProperties {
 
-    public static Object  initializeProperties() throws IllegalAccessException {
-        Object appProperties = new AppProperties();
+    public static Object  initializeProperties(Class<?> objectClass) throws IllegalAccessException, NoSuchMethodException {
+        Object appProperties = objectClass.getConstructor();
         Properties properties = loadProperties();
 
         Class<?> classOfInstance = appProperties.getClass();

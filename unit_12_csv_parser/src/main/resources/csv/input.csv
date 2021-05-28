@@ -1,0 +1,6 @@
+"id","login","password","available","role"
+1,vasya,22848,TRUE,client
+2,Cucumber2007,48228,TRUE,manager
+3,Tasher4000,12345,FALSE,client
+4,KojimaGеnius,password,TRUE,manager
+5,Steav,54321,TRUE,client
