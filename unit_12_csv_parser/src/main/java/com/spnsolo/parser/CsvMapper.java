@@ -9,7 +9,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class CsvParser {
+public final class CsvMapper {
     public <T> List<T> getCsvAsListObjects(TableCsv tableCsv, Class<T> tClass) {
         try {
             Constructor<T> constructor = tClass.getConstructor();
@@ -49,7 +49,6 @@ public final class CsvParser {
                 list.add(target);
             }
             return list;
-
         } catch (NoSuchMethodException | InstantiationException | IllegalAccessException | InvocationTargetException e) {
             throw new RuntimeException(e);
         }

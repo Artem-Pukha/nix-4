@@ -4,9 +4,8 @@ import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvException;
 import com.spnsolo.data.TableCsv;
 import com.spnsolo.data.User;
-import com.spnsolo.en.Role;
 import com.spnsolo.io.InputCsv;
-import com.spnsolo.parser.CsvParser;
+import com.spnsolo.parser.CsvMapper;
 import com.spnsolo.until.FileResourcesUtil;
 
 import java.io.FileReader;
@@ -20,7 +19,7 @@ public class Main {
         try (CSVReader reader = new CSVReader(new FileReader(path))){
             InputCsv inputCsv = new InputCsv(reader);
             TableCsv tableCsv = new TableCsv(inputCsv.getCsv());
-            CsvParser parser = new CsvParser();
+            CsvMapper parser = new CsvMapper();
             List<User> users = parser.getCsvAsListObjects(tableCsv,User.class);
             users.forEach(System.out::println);
             System.out.println("///////////////////////////");
