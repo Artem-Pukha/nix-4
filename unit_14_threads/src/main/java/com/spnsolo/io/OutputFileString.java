@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 public class OutputFileString implements Runnable{
     private final Logger logger = Logger.getLogger(InputConsoleString.class);
 
-    private static final String OUTPUT = "output/output.txt";
+    private static final String OUTPUT = "output.txt";
     private final InputConsoleString output;
 
     public OutputFileString(InputConsoleString output){this.output = output;}
