@@ -2,5 +2,5 @@
 out
 *.iml
 target
-*.log
+*.log.*
 
