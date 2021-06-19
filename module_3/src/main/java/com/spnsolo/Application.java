@@ -37,6 +37,7 @@ public class Application {
                 MainController controller = new MainController(INNER,session,connection);
                 session.getTransaction().begin();
 
+
                 CheckedUserDto user = new CheckedUserDto();
                 user.setEmail(info.getEmail());
                 user.setId(Long.parseLong(info.getId()));
