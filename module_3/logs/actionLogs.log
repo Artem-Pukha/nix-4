@@ -1,0 +1,42 @@
+2021-06-15 20:27:12 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.14.Final
+2021-06-15 20:27:18 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-06-15 20:27:19 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-06-15 20:27:20 INFO  pooling:115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/mydb?useSSL=false&serverTimezone=UTC]
+2021-06-15 20:27:20 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
+2021-06-15 20:27:20 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-06-15 20:27:20 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-06-15 20:27:21 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-15 20:27:27 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@462abec3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-06-15 20:27:27 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-15 20:27:45 INFO  MainController:66 - User's login
+2021-06-15 20:28:14 INFO  Application:61 - Selected "account report" mod
+2021-06-15 20:40:10 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.14.Final
+2021-06-15 20:40:12 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-06-15 20:40:13 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-06-15 20:40:13 INFO  pooling:115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/mydb?useSSL=false&serverTimezone=UTC]
+2021-06-15 20:40:13 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
+2021-06-15 20:40:13 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-06-15 20:40:13 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-06-15 20:40:13 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-15 20:40:15 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1e1b061] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-06-15 20:40:15 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-15 20:40:20 INFO  MainController:67 - User's login
+2021-06-15 20:40:22 INFO  Application:60 - Selected "account report" mod
+2021-06-15 20:40:25 INFO  MainController:171 - Selected period for report
+2021-06-15 20:40:25 INFO  MainController:178 - Report has been created
+2021-06-15 20:40:25 INFO  pooling:418 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/mydb?useSSL=false&serverTimezone=UTC]
+2021-06-15 20:44:28 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.14.Final
+2021-06-15 20:44:30 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-06-15 20:44:31 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-06-15 20:44:31 INFO  pooling:115 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/mydb?useSSL=false&serverTimezone=UTC]
+2021-06-15 20:44:31 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
+2021-06-15 20:44:31 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-06-15 20:44:31 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-06-15 20:44:31 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-15 20:44:33 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1e1b061] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-06-15 20:44:33 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-15 20:44:37 INFO  MainController:67 - User's login
+2021-06-15 20:44:39 INFO  Application:60 - Selected "account report" mod
+2021-06-15 20:44:40 INFO  MainController:171 - Selected period for report
+2021-06-15 20:44:40 INFO  MainController:178 - Report has been created
+2021-06-15 20:44:40 INFO  pooling:418 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/mydb?useSSL=false&serverTimezone=UTC]
